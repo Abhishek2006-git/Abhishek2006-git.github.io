@@ -3996,7 +3996,7 @@ img.u-pull-left {
 @media screen and (max-width: 400px) {
     .folio-list .column {
         flex  : none;
-        width : 50%;
+        width : 98%;
     }
 
     .folio-list__item {
@@ -4235,4 +4235,7 @@ img.u-pull-left {
     .ss-go-top {
         right : 6vw;
     }
+}
+*{
+    border-radius: 8px;
 }
