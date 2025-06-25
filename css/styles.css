@@ -2968,6 +2968,7 @@ img.u-pull-left {
 
 .main-nav {
     padding : 0;
+    text-align: center;
 }
 
 .main-nav a {
@@ -3605,6 +3606,13 @@ img.u-pull-left {
 .folio-list__item {
     margin-bottom : var(--vspace-1);
     position      : relative;
+    width: 98%;
+    background: var(--color-gray-9);
+}
+
+li.folio-list__item.column{
+    width: 98%;
+    padding-left: 18px;
 }
 
 .folio-list__item-link {
@@ -4238,4 +4246,20 @@ img.u-pull-left {
 }
 *{
     border-radius: 8px;
+    user-select: none;
+}
+a:hover{
+    scale: 101%;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: var(--color-gray-9);
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--color-1);
+    border-radius: 8px;
+    cursor: pointer;
 }
