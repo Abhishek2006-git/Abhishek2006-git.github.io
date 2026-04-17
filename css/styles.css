@@ -3732,6 +3732,7 @@ li.folio-list__item.column{
     font-family : var(--font-1);
     font-weight : 500;
     font-size   : var(--text-lg);
+    padding-top : 5px;
 }
 
 .folio-list__item-cat {
@@ -4008,7 +4009,7 @@ li.folio-list__item.column{
     }
 
     .folio-list__item {
-        margin-bottom : 0;
+        margin-bottom : 8px;
     }
 
     .folio-list__item-link {
