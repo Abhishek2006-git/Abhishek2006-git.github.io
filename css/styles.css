@@ -3295,7 +3295,7 @@ img.u-pull-left {
     }
 
     .intro-content {
-        padding-top : calc(14vh + var(--header-height));
+        padding-top : calc(0vh + var(--header-height));
     }
 }
 
@@ -3318,7 +3318,7 @@ img.u-pull-left {
     .intro-content {
         min-height  : 0;
         align-items : flex-start;
-        padding-top : calc(9.6rem + var(--header-height));
+        padding-top : calc(0rem + var(--header-height));
     }
 
     .intro-content .text-huge-title {
