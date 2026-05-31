@@ -3190,10 +3190,10 @@ img.u-pull-left {
 }
 
 .intro-content {
-    min-height      : calc(25.5 * var(--space));
+    min-height      : calc(20.5 * var(--space));
     justify-content : center;
     align-items     : center;
-    padding-top     : calc(16vh + var(--header-height));
+    padding-top     : calc(0vh + var(--header-height));
     padding-bottom  : var(--vspace-3);
 }
 
